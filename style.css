@@ -64,6 +64,8 @@ header img {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+  height: calc(100% - 72px);
+  margin: 76px 0;
 }
 
 svg {
@@ -80,15 +82,32 @@ svg {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.feature p {
+  max-width: 50%;
 }
 
 .feature-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .feature-title svg {
   margin-right: 48px;
+}
+
+body {
+  height: 10000px;
 }
 /*# sourceMappingURL=style.css.map */

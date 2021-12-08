@@ -4,6 +4,8 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  height: calc(100% - 72px);
+  margin: 76px 0;
 }
 
 svg {
@@ -14,10 +16,18 @@ svg {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+
+  p {
+    max-width: 50%;
+  }
 }
 
 .feature-title {
   display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 
   svg {
     margin-right: 48px;
