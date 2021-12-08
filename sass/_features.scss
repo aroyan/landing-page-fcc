@@ -1,0 +1,25 @@
+.features-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+svg {
+  height: 72px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-title {
+  display: flex;
+
+  svg {
+    margin-right: 48px;
+  }
+}
