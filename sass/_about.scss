@@ -4,5 +4,35 @@
   @include flex-center;
   height: 100vh;
   width: 100%;
-  background: #ddd;
+
+  form {
+    @include flex-center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    input {
+      border-radius: 8px;
+      border: 1px solid #000;
+      height: 48px;
+      padding: 8px 16px;
+
+      &:nth-child(1) {
+        margin-right: 8px;
+        min-width: 30%;
+      }
+
+      &:nth-child(2) {
+        background-color: #000;
+        color: #fff;
+        padding: 8px 24px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 590px) {
+  iframe {
+    max-width: 90%;
+  }
 }

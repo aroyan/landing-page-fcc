@@ -28,3 +28,17 @@ header {
     margin-left: 48px;
   }
 }
+
+@media screen and (max-width: 590px) {
+  header {
+    justify-content: center;
+
+    nav {
+      margin: 0;
+    }
+
+    img {
+      margin: 0;
+    }
+  }
+}
